@@ -1,0 +1,119 @@
+body{
+background: cornsilk;
+}
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 48px;
+    margin: 0;
+    padding: 16px 32px ;
+    font-family: Brush Script MT;
+    font-size: 30px;
+    color: #7E7E7E;
+    font-weight: bold;
+    text-align: center;
+}
+
+header{
+    background: cornsilk;
+}
+
+article{
+    display: initial;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    position: absolute;
+    top: 0;
+}
+
+li{
+    display: inline-block;
+    width: 160px;
+    height: 24px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+nav ul ul{
+    display: none;
+    background: cornsilk;
+}
+
+nav li:hover ul{
+    display: grid;
+    top: 24px;
+}
+
+.for_fans li{
+    height: 24px;
+    text-decoration: none;
+    color: #7E7E7E;
+    font-size: medium;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 9px;
+}
+
+#first_hover{
+    padding-top: 24px;
+}
+
+li a:hover{
+    width: 160px;
+    height: 24px;
+    background: #7E7E7E;
+    color: cornsilk;
+    padding: 0;
+    margin: 0;
+}
+
+.main_photo{
+    margin: 80px 24px 16px;
+    padding: 0;
+}
+
+#photos{
+    display: inline-block;
+}
+
+h3{
+    color: dimgray;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 32px;
+}
+
+.left_photo{
+    margin: 16px;
+}
+
+p{
+    color: #7E7E7E;
+    font-family: Rubik;
+    font-size: 15px;
+}
+
+section{
+    margin: 0 15%;
+}
+
+footer{
+    margin: 32px;
+}
